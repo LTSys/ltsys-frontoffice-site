@@ -1,0 +1,8 @@
+# Bloqueia áreas administrativas, permite todo o resto
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Localização do sitemap (substituir pelo meu domínio)
+Sitemap: https://seudominio.com/sitemap.xml
